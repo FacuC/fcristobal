@@ -44,6 +44,8 @@ footer{
 
 .central{
   min-height: 400px;
+  padding-top: 100px;
+  background-color: white;
 }
 
 .tabla {
@@ -71,4 +73,42 @@ footer{
 
 .fila input:hover{
   text-shadow: 0px 0px 10px white;
+}
+
+.ofertas{
+  padding-top: 100px;
+}
+
+.ofertas img{
+  width: 100%;
+}
+
+.ofertas p, .articulo p{
+  text-align: center;
+  color: #FF7052;
+}
+
+.central h1{
+  display: block;
+  position: absolute;
+  margin: 0px;
+  top: 0px;
+  left: 0px;
+  color: red;
+  text-align: center;
+}
+
+.ofertas header, .central h1{
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.ofertas header{
+  background-color: red;
+}
+
+.articulo img{
+  width: 100%;
 }
