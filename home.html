@@ -15,10 +15,10 @@
       <span class="separador"></span>
     </header>
     <ul id="barraNav" class="nav nav-tabs">
-      <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
-      <li role="presentation"><a href="#">productos</a></li>
-      <li role="presentation"><a href="#">contacto</a></li>
-      <li role="presentation"><a href="#">catalogo</a></li>
+      <li role="presentation" ><input id="home" type="button" class="btn activado" value="HOME"></input></li>
+      <li role="presentation" id="productos"><input type="button" class="btn" value="productos"></input></li>
+      <li role="presentation" id="contacto"><input type="button" class="btn" value="contacto"></input></li>
+      <li role="presentation"><input onClick="getInformationByItem('576ab2589568d10300a17cf7')" id="catalogo" type="button" class="btn" value="catalogo"></input></li>
     </ul>
     <article id="contenedorCentral" class="central col-lg-8 well well-lg">
       <h1>ULTIMOS INGRESOS</h1>
@@ -60,6 +60,7 @@
       <span class="logo">DT</span>
       <span class="separador"></span>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/jquery-3.0.0.min.js" charset="utf-8"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js" charset="utf-8"></script>
