@@ -2,17 +2,48 @@ body {
   background-color: white;
 }
 
-header {
-  background-color: #9085FE;
+header, footer {
+  background-color: #FD525B;
   padding: 10px;
-}
-
-header h1{
-  margin: 0px;
+  font-weight: bolder;
   color: white;
+  font-size: 50px;
+  box-shadow: 0px 0px 10px #FD525B;
 }
 
-form {
+#barraNav{
+  margin-top: 5px;
+}
+
+#barraNav a{
+  color: #FF7052;
+}
+
+#barraNav a:hover{
+  background-color: transparent;
+  text-shadow: 0px 0px 10px #FF7052;
+}
+
+.logo{
+  float: left;
+  padding-right: 10px;
+  padding-left: 5px;
+  background-color: #E63C44;
+  border-radius: 0px 30px 30px 0px;
+  border: 5px solid #FB4750;
+}
+
+footer, .separador{
+  clear: both;
+  display: block;
+}
+
+footer{
+  bottom: 0px;
+}
+
+.central{
+  min-height: 400px;
 }
 
 .tabla {
