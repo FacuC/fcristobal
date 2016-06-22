@@ -112,3 +112,40 @@ footer{
 .articulo img{
   width: 100%;
 }
+
+.contenido{
+  border-style: dashed;
+  border-radius: 50px;
+  border-color: black;
+  margin-top: 50px;
+  overflow: hidden;
+  background-color: black;
+  opacity: 0.8;
+}
+.ultimo{
+  float: left;
+  width: 78%;
+}
+.catalogo a:hover{
+  font-weight: bold;
+}
+
+.catalogo{
+  color: black;
+}
+.catalogo td{
+  font-size: 20px;
+  border: 3px dotted black;
+  padding: 20px;
+}
+
+.catalogo table	{
+  margin-left: 300px;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.catalogo a{
+  color: red;
+  text-decoration: inherit;
+}
